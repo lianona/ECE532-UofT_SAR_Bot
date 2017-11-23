@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER Temp_Sensor
+	OPTION supported_peripherals = (Temp_Sensor);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = Temp_Sensor;
+END DRIVER

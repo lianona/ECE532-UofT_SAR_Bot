@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Top_Level_Design_App/src/testperiph.c&apos; to &apos;Top_Level_Design_main.c&apos;" description="Rename resource &apos;testperiph.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/testperiph.c" name="Top_Level_Design_main.c" stamp="1492063313281" updateReferences="true"/>
+</session>

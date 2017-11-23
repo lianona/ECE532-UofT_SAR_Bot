@@ -1,0 +1,40 @@
+02:01:54 **** Auto Build of configuration Debug for project Top_Level_Design_App ****
+make all 
+'Building file: ../src/Top_Level_Design_main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Top_Level_Design_main.o" -I../../Top_Level_Design_App_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/Top_Level_Design_main.d" -MT"src/Top_Level_Design_main.o" -o "src/Top_Level_Design_main.o" "../src/Top_Level_Design_main.c"
+../src/Top_Level_Design_main.c: In function 'main':
+../src/Top_Level_Design_main.c:286:13: warning: unused variable 'avg_x' [-Wunused-variable]
+    unsigned avg_x = *(OV7670_VGA_Addr + 1);
+             ^
+'Finished building: ../src/Top_Level_Design_main.c'
+' '
+'Building file: ../src/xintc_tapp_example.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xintc_tapp_example.o" -I../../Top_Level_Design_App_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/xintc_tapp_example.d" -MT"src/xintc_tapp_example.o" -o "src/xintc_tapp_example.o" "../src/xintc_tapp_example.c"
+'Finished building: ../src/xintc_tapp_example.c'
+' '
+'Building file: ../src/xuartlite_intr_tapp_example.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xuartlite_intr_tapp_example.o" -I../../Top_Level_Design_App_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/xuartlite_intr_tapp_example.d" -MT"src/xuartlite_intr_tapp_example.o" -o "src/xuartlite_intr_tapp_example.o" "../src/xuartlite_intr_tapp_example.c"
+'Finished building: ../src/xuartlite_intr_tapp_example.c'
+' '
+'Building file: ../src/xuartlite_selftest_example.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xuartlite_selftest_example.o" -I../../Top_Level_Design_App_bsp/microblaze_0/include -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/xuartlite_selftest_example.d" -MT"src/xuartlite_selftest_example.o" -o "src/xuartlite_selftest_example.o" "../src/xuartlite_selftest_example.c"
+'Finished building: ../src/xuartlite_selftest_example.c'
+' '
+'Building target: Top_Level_Design_App.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../Top_Level_Design_App_bsp/microblaze_0/lib -mlittle-endian -mcpu=v9.6 -mxl-soft-mul -Wl,--no-relax -o "Top_Level_Design_App.elf"  ./src/Top_Level_Design_main.o ./src/xintc_tapp_example.o ./src/xuartlite_intr_tapp_example.o ./src/xuartlite_selftest_example.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: Top_Level_Design_App.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size Top_Level_Design_App.elf  |tee "Top_Level_Design_App.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  21524	    404	   3456	  25384	   6328	Top_Level_Design_App.elf
+'Finished building: Top_Level_Design_App.elf.size'
+' '
+
+02:02:03 Build Finished (took 8s.585ms)
+

@@ -1,0 +1,7 @@
+01:56:30 INFO  : Launching XSDB server: xsdb.bat -interactive E:\G9_UofTSARBot\src\Top_Level_Design\sdk\temp_xsdb_launch_script.tcl
+01:56:38 INFO  : XSDB server has started successfully.
+01:56:41 INFO  : Processing command line option -hwspec E:/G9_UofTSARBot/src/Top_Level_Design/sdk/Top_Level_Design_BD_wrapper.hdf.
+02:01:18 INFO  : Launching XSDB server: xsdb.bat -interactive E:\G9_UofTSARBot\src\Top_Level_Design\sdk\temp_xsdb_launch_script.tcl
+02:01:20 INFO  : XSDB server has started successfully.
+02:01:23 INFO  : Processing command line option -hwspec E:/G9_UofTSARBot/src/Top_Level_Design/sdk/Top_Level_Design_BD_wrapper.hdf.
+02:01:23 INFO  : Checking for hwspec changes in the project Top_Level_Design_BD_wrapper_hw_platform_0.
